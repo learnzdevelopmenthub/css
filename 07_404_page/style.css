@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    color: #333;
+}
+
+.logo {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.left {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.left img {
+    width: 70%;
+    height: auto;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    padding: 40px;
+}
+
+.right h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.right p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+a.btn {
+    display: inline-block;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a.btn:hover {
+    background: #555;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.footer span {
+    font-weight: bold;
+}

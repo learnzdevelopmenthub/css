@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Not Found</title>
+  <style>
+    /* Import Google Font similar to screenshot */
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Space Mono', monospace;
+      background: #fff;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    header {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #111;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .illustration {
+      max-width: 320px;
+    }
+
+    .illustration img {
+      width: 100%;
+      height: auto;
+    }
+
+    .text-content {
+      max-width: 400px;
+      text-align: left;
+    }
+
+    .text-content h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .text-content p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+      color: #444;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #222;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #444;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 12px;
+      color: #888;
+    }
+
+    footer span {
+      font-weight: bold;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .text-content {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>404 NOT FOUND</header>
+
+  <div class="container">
+    <div class="illustration">
+      <img src="img/scarecrow.png" alt="404 Illustration">
+    </div>
+    <div class="text-content">
+      <h1>I have bad news for you</h1>
+      <p>The page you are looking for might be removed or is temporarily unavailable</p>
+      <a href="/" class="btn">Back to homepage</a>
+    </div>
+  </div>
+
+  <footer>created by <span>Learnz Development Hub</span></footer>
+</body>
+</html>

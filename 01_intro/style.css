@@ -1,0 +1,31 @@
+h1 {
+    color: green;
+}
+
+.blue-heading {
+    color: blue;
+}
+
+#heading3 {
+    color: yellow;
+}
+
+#content-wrapper {
+    font-size: 20px;
+}
+
+#paragraph-1{
+    font-size: 1.5em;
+    height: 30%;
+    background-color: aqua;
+}
+
+#paragraph-2{
+    background-color: beige;
+    width: 50%;
+    height: 100vh;
+}
+
+#paragraph-3{
+    font-size: 1.5rem;
+}

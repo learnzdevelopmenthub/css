@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    background-color: black;
+    height: 200px;
+    padding: 10px;
+}
+
+.item {
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 5px;
+    flex: 1;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item2 {
+    flex-grow: 2;
+}
+
+.item3 {
+    align-self: flex-end;
+    background-color: lightyellow;
+}
