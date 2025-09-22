@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+   <div class="grid grid-cols-[1fr_4fr_1fr] grid-rows-[200px_1fr_100px_50px] gap-2">
+        <div class="bg-gray-500 col-span-full">1</div>
+        <div class="bg-gray-500 row-span-2">2</div>
+        <div class="bg-gray-500">3</div>
+        <div class="bg-gray-500 row-span-2">4</div>
+        <div class="bg-gray-500">5</div>
+        <div class="bg-gray-500 col-start-1 col-end-4">6</div>
+   </div>
+</body>
+</html>
